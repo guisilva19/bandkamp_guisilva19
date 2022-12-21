@@ -31,7 +31,10 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'bandkampguisilva19-production.up.railway.app',
+    '0.0.0.0'
+]
 
 
 # Application definition
